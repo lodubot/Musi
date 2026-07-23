@@ -1,0 +1,24 @@
+/**
+ * config.js
+ * Fill these values in before starting the bot.
+ *
+ * BOT_TOKEN : from @BotFather
+ * API_ID    : from https://my.telegram.org -> API Development Tools
+ * API_HASH  : from https://my.telegram.org -> API Development Tools
+ * OWNER_ID  : your numeric Telegram user id (get it from @userinfobot)
+ * PREFIX    : command prefix, e.g. "/" or "!"
+ */
+module.exports = {
+  BOT_TOKEN: "8993593935:AAGwkSpz6g8VWeJAdj4ZSW1NaJGJYwVwsbQ",
+  API_ID: 25461006,
+  API_HASH: "be4d9b5dc42758bccb2087b071738359",
+  OWNER_ID: 0,
+  PREFIX: "/",
+
+  // Internal tunables (safe to leave as-is)
+  MAX_QUEUE_SIZE: 200,
+  DOWNLOAD_DIR: "downloads",
+  SESSIONS_DIR: "sessions",
+  LOGS_DIR: "logs",
+  FLOOD_WAIT_RETRY: 3
+};
