@@ -8,7 +8,7 @@ const logger = require("../utils/logger");
 
 // We skip youtube-dl-exec's own postinstall download (YOUTUBE_DL_SKIP_DOWNLOAD=1)
 // and rely on the system-wide yt-dlp installed by install.sh instead.
-const youtubeDl = create(config.YT_DLP_PATH || "/usr/local/bin/yt-dlp");
+//const youtubeDl = create(config.YT_DLP_PATH || "/usr/local/bin/yt-dlp");
 
 const DOWNLOAD_DIR = path.join(__dirname, "..", config.DOWNLOAD_DIR || "downloads");
 if (!fs.existsSync(DOWNLOAD_DIR)) fs.mkdirSync(DOWNLOAD_DIR, { recursive: true });
