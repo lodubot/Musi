@@ -2,7 +2,7 @@
 
 const path = require("path");
 const fs = require("fs");
-const { create } = require("youtube-dl-exec");
+//const { create } = require("youtube-dl-exec");
 const config = require("../config");
 const logger = require("../utils/logger");
 
